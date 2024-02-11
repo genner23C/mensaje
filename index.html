@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pregunta Especial</title>
+</head>
+<body>
+  <div class="container" id="seccion-pregunta">
+    <div class="corazon" id="corazon" onclick="latirCorazon()">&#10084;</div>
+    <h1>¿Podemos volver a intentarlo y empezar desde ahora?</h1>
+    <button id="btn-aceptar" class="btn-aceptar" onclick="mostrarSeccionAceptada()">¡Sí, quiero!</button>
+    <button id="btn-rechazar" class="btn-rechazar" onclick="dividirCorazon()">no, no quiero</button>
+  </div>
+
+  <div class="seccion-oculta" id="seccion-aceptada">
+    <div class="ramo-tulipanes" id="ramo-tulipanes">&#127799;&#127799;&#127799;&#127799;&#127799;</div>
+    <h2>Felicidades</h2>
+    <div class="contenido-seccion">
+      <p>Estoy muy emocionado de volver a intentarlo. Déjame ganar tu confianza para que puedas tener esperanza, déjame cuidarte para poder ayudarte, déjame ser nadie para después ser alguien, permíteme tocar tu corazón y refugiarlo con mis manos frías, te prometo que nadie te hará daño nunca más, no voy a permitir que te lastimen o te destruyan física y emocionalmente, hay algo que quiero dejarte claro, quiero estar ahí en los buenos y malos momentos, nunca vas a estar sola, nunca voy a soltarte y nunca dejaré que alguien te lastime. quiero que me dejes describir tu belleza interna, hacerte entender que no tienes nada malo en ti, que eres perfecta y única, quiero darle un nuevo comienzo a esto, volver a recrear todo y volver a hacer quienes éramos, dos locos enamorados, aceptarías de que yo volviera a enamorarte?</p>
+      <div class="corazon-palpitante" id="corazon-palpitante" onclick="latirCorazon()">❤️</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
